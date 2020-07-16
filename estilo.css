@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #F08080;
+	font-family: 'Open Sans',sans-serif;
+	background-color: #2F4F4F;
+}
+h1{
+	color: white;
+}
+.inicio{
+	width: 200px;
+	height: auto;
+	margin: 20px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #000;
+}
+.datos{
+	margin-top: 20px;
+/*	background-color: red ;
+	
+	margin-right: 140px;
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-left: 340px;
+	width: 500px;
+	height: 200px;*/
+
+}
+a:visited,a:link{
+	margin: 5px 5px 5px;
+	text-decoration: none;
+	color:white;
+}
+input[type="text"],input[type="password"]{
+	outline: none;
+	padding: 10px;
+	margin: 5px auto;
+	width: 200px;
+	display: block;
+	border: 1px solid #7fffd4;
+	border-radius: 50px;
+
+}
+input[type="submit"]{
+	background: #dc143c;
+	/*#5f9ea0;*/
+	color: white;
+	padding: 15px 60px;
+	margin: 10px auto;
+	/*border: 1px solid #555;*/
+	border-radius: 30px;
+	cursor: alias;
+
+}
+.selec{
+	padding: 10px;
+	margin: 10px auto;
+	width: 280px;
+	border: 1px solid #7fffd4;
+	border-radius: 50px;
+}
+.cuerpo{
+ background-color: #2F4F4F;
+}
+header{
+	background: rgba(114, 38, 38, 0.735);
+	justify-content: space-between;
+	padding: 0px 10px;
+	/*text-align: center;*/
+}
+.perfil{
+	text-align:  right; 
+}
+.perfil h2{
+	float: left;
+	padding-top:30px;
+	padding-left: 100px;
+	color: white;
+
+}
+.perfil img{
+	width: 150px;
+	height: 100px;
+	padding: 8px 10px;
+	vertical-align: top;
+	border-radius: 30%;
+	margin: 5px 10px;
+	/*margin-top: 10px;*/
+}
+.Contenido{
+	padding-bottom: 30px;
+	vertical-align: center;
+}
+.Contenido div{
+text-align: center;
+}
+.Contenido h1{
+	/*text-align: center;*/
+	color: black;
+}
+
+.Contenido p{
+	color: white;
+	padding: 20px 10px;
+	text-align: left;
+	
+}
+.tablas table{
+	background-color: #008b8b;
+	color: white;
+	text-orientation: center;
+	border-collapse: collapse;
+	margin: auto auto auto;
+	/*margin-bottom: 100px;*/
+	/*width: 100%;*/
+}
+.tablas td,th,tr{
+border: 1px solid;
+padding: 5px;
+
+}
+ 
+.tablas table,th{
+background-color: #8b0000;
+border-right:  4px solid;
+}
+
